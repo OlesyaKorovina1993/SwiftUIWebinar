@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUIWebinarApp: App {
+    let channelData = ChannelData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(channelData)
         }
     }
 }

@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8CB78226209A1300E5DFEB /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CB78126209A1300E5DFEB /* VideoView.swift */; };
+		CE8CB7872620AC4600E5DFEB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CB7862620AC4600E5DFEB /* DataModel.swift */; };
+		CE8CB78A2623223000E5DFEB /* ChannelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CB7892623223000E5DFEB /* ChannelData.swift */; };
 		CEC0363826206EBB00601EA7 /* SwiftUIWebinarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0363726206EBB00601EA7 /* SwiftUIWebinarApp.swift */; };
 		CEC0363A26206EBB00601EA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0363926206EBB00601EA7 /* ContentView.swift */; };
 		CEC0363C26206EBD00601EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC0363B26206EBD00601EA7 /* Assets.xcassets */; };
 		CEC0363F26206EBD00601EA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC0363E26206EBD00601EA7 /* Preview Assets.xcassets */; };
+		CEC0364C26207DE500601EA7 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0364B26207DE500601EA7 /* ChannelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE8CB78126209A1300E5DFEB /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		CE8CB7862620AC4600E5DFEB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CE8CB7892623223000E5DFEB /* ChannelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelData.swift; sourceTree = "<group>"; };
 		CEC0363426206EBB00601EA7 /* SwiftUIWebinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWebinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC0363726206EBB00601EA7 /* SwiftUIWebinarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebinarApp.swift; sourceTree = "<group>"; };
 		CEC0363926206EBB00601EA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEC0363B26206EBD00601EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC0363E26206EBD00601EA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEC0364026206EBD00601EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC0364B26207DE500601EA7 /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8CB7842620ABE200E5DFEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0363926206EBB00601EA7 /* ContentView.swift */,
+				CE8CB78126209A1300E5DFEB /* VideoView.swift */,
+				CEC0364B26207DE500601EA7 /* ChannelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CEC0362B26206EBB00601EA7 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				CEC0363726206EBB00601EA7 /* SwiftUIWebinarApp.swift */,
-				CEC0363926206EBB00601EA7 /* ContentView.swift */,
+				CE8CB7862620AC4600E5DFEB /* DataModel.swift */,
+				CE8CB7892623223000E5DFEB /* ChannelData.swift */,
+				CE8CB7842620ABE200E5DFEB /* Views */,
 				CEC0363B26206EBD00601EA7 /* Assets.xcassets */,
 				CEC0364026206EBD00601EA7 /* Info.plist */,
 				CEC0363D26206EBD00601EA7 /* Preview Content */,
@@ -138,6 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8CB7872620AC4600E5DFEB /* DataModel.swift in Sources */,
+				CE8CB78226209A1300E5DFEB /* VideoView.swift in Sources */,
+				CEC0364C26207DE500601EA7 /* ChannelView.swift in Sources */,
+				CE8CB78A2623223000E5DFEB /* ChannelData.swift in Sources */,
 				CEC0363A26206EBB00601EA7 /* ContentView.swift in Sources */,
 				CEC0363826206EBB00601EA7 /* SwiftUIWebinarApp.swift in Sources */,
 			);
